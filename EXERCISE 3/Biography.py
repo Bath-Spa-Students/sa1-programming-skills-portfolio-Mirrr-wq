@@ -20,4 +20,5 @@ Name = input("YOUR NAME : ")
 Hometown = input("YOUR HOMETOWN : ")
 Age = input("YOUR AGE : ")
 
+#enter the code for the output 
 print (Name + " " + Hometown + " " + Age)
