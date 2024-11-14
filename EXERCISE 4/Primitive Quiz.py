@@ -12,9 +12,10 @@ Ignore Capitalization: Modify your program to accept answers regardless of the c
 should all be considered correct).Multiple Questions: Extend the program into a quiz that asks for 
 the capitals of 10 European countries. Provide feedback for each question."""
 
-
+# write the asnwer for the given code as it will be displayed when u run it
 Output = input ("what is capital of france : ")
 
+# basically if u give the right answer the code will print correct but if u give wrong answer the code will print incorrect
 if Output == "paris" : 
     print ("CORRECT ! ")
 else :
