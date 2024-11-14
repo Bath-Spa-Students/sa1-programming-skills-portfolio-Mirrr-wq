@@ -5,7 +5,7 @@ should all be considered correct).Multiple Questions: Extend the program into a 
 the capitals of 10 European countries. Provide feedback for each question."""
 
 
-
+# store the 10 countries and their capitals as per the question
 country_caps = [
     ("France" , "paris"),
     ("Germany" , "berlin"),
@@ -19,6 +19,7 @@ country_caps = [
     ("Finland" , "helsinki"),
 ]
 
+# this code will ask you the capitals and if u anwer correct it will display the other question..
 for country , capital in country_caps :
     answer = input (f"WHAT IS THE CAPITAL OF {country}? : ").strip()
     
